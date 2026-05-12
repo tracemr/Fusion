@@ -5,7 +5,7 @@
   },
   {
     "name": "(TM) TMDb",
-    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/tmdb.png”
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/tmdb.png"
   },
   {
     "name": "(RT) Rotten Tomatoes Tomatometer",
@@ -46,6 +46,5 @@
   {
     "name": "LOVE",
     "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/love.png"
-  },
-  
+  }
 ]
