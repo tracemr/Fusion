@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g01-resolution",
       "id": "29075787-3ab6-539d-aee4-2245d93f115a",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/4k.png",
@@ -14,7 +14,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g01-resolution",
       "id": "929C8D82-079B-40EA-ADDF-B9EA3233C241",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2k.png",
@@ -27,7 +27,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9500",
+      "borderColor": "#000000",
       "groupId": "g01-resolution",
       "id": "0b6cb68b-9b86-5b7b-9d90-37222bde6d14",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/1080p-full-hd.png",
@@ -40,7 +40,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3B30",
+      "borderColor": "#000000",
       "groupId": "g01-resolution",
       "id": "0d33e380-b632-566f-a57f-89ab9137313e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/720p-hd.png",
@@ -53,7 +53,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-vision.png",
@@ -66,7 +66,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10Plus.png",
@@ -79,7 +79,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10Plus-2.png",
@@ -92,7 +92,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10.png",
@@ -105,7 +105,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9500",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10-2.png",
@@ -118,7 +118,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9500",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR.png",
@@ -131,7 +131,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3B30",
+      "borderColor": "#000000",
       "groupId": "g02-dynamic-range",
       "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/SDR.png",
@@ -144,7 +144,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-atmos.png",
@@ -157,7 +157,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-truehd.png",
@@ -170,7 +170,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9500",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digitalplus.png",
@@ -183,7 +183,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3B30",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digital.png",
@@ -196,7 +196,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "4309bea6-d424-51f4-8099-0deabacfc306",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtsx.png",
@@ -209,7 +209,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshdma.png",
@@ -222,7 +222,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9500",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshd.png",
@@ -235,7 +235,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3B30",
+      "borderColor": "#000000",
       "groupId": "g05-audio-tags",
       "id": "da8db73e-5b47-560e-a543-abf02335db5c",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dts.png",
@@ -248,7 +248,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00C7BE",
+      "borderColor": "#000000",
       "groupId": "g03-encode",
       "id": "21D9C1AC-B8FF-48E5-8297-B1BBB97A34C1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/H265.png",
@@ -261,7 +261,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#34C759",
+      "borderColor": "#000000",
       "groupId": "g03-encode",
       "id": "7A3FE411-51BE-4915-A105-96160BB96764",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/H264.png",
@@ -274,7 +274,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#5AC8FA",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "FB568896-1A35-4EEF-AB54-FF8D86B243F6",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/bluray.png",
@@ -287,7 +287,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#007AFF",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/IMAX.png",
@@ -300,7 +300,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "v-imax-e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/IMAX-enhanced.png",
@@ -313,7 +313,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#22000000",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/SeaDex.png",
@@ -326,7 +326,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#22000000",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "c0ad5e2e-ed9d-5abd-a13a-64cce37547a2",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-remux.png",
@@ -339,7 +339,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#22000000",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "acf8f544-3810-5b00-ac72-4835d3438e1a",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-bluray.png",
@@ -352,7 +352,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#22000000",
+      "borderColor": "#000000",
       "groupId": "g04-special-tags",
       "id": "4c04b5c6-2077-5c46-b7cd-6709391fcd37",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-web.png",
@@ -365,7 +365,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#8E8E93",
+      "borderColor": "#000000",
       "groupId": "g06-channels",
       "id": "343880da-882c-5dd8-8686-aee04111d735",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/7dot1.png",
@@ -378,7 +378,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#8E8E93",
+      "borderColor": "#000000",
       "groupId": "g06-channels",
       "id": "59853061-bc8f-5545-b392-644c22267ef8",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/6dot1.png",
@@ -391,7 +391,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#8E8E93",
+      "borderColor": "#000000",
       "groupId": "g06-channels",
       "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/5dot1.png",
@@ -404,7 +404,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#8E8E93",
+      "borderColor": "#000000",
       "groupId": "g06-channels",
       "id": "b15c7e11-4a5f-4d6b-8b7a-9a918734fca2",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2dot1.png",
@@ -417,7 +417,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#8E8E93",
+      "borderColor": "#000000",
       "groupId": "g06-channels",
       "id": "d87e9f22-5c7e-4e8c-9c9b-1c138956edb4",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2dot0.png",
@@ -430,7 +430,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-en",
       "isEnabled": true,
@@ -442,7 +442,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-es",
       "isEnabled": true,
@@ -454,7 +454,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-fr",
       "isEnabled": true,
@@ -466,7 +466,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-de",
       "isEnabled": true,
@@ -478,7 +478,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-it",
       "isEnabled": true,
@@ -490,7 +490,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-pt",
       "isEnabled": true,
@@ -502,7 +502,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-ja",
       "isEnabled": true,
@@ -514,7 +514,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-ko",
       "isEnabled": true,
@@ -526,7 +526,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-zh",
       "isEnabled": true,
@@ -538,7 +538,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-hi",
       "isEnabled": true,
@@ -550,7 +550,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-ar",
       "isEnabled": true,
@@ -562,7 +562,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-ru",
       "isEnabled": true,
@@ -574,7 +574,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00000000",
+      "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-mu",
       "isEnabled": true,
