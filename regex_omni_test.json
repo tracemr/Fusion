@@ -378,6 +378,10 @@
     "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b" : 3,
     "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b" : 3
   },
-  "autoPlayEnabled" : [],
-  "defaultFilterEnabled" : []
+  "autoPlayEnabled" : [
+    
+  ],
+  "defaultFilterEnabled" : [
+    
+  ]
 }
