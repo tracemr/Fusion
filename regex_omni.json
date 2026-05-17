@@ -170,7 +170,7 @@
     "(?i)\\b(?:blu[- ]?ray|bd[- ]?rip|br[- ]?rip|bdr)\\b(?!.*remux)": "#5AC8FA",
     "(?i)\\bimax\\b(?![\\s._-]?enhanced)": "#007AFF",
     "(?i)\\bimax[\\s._-]?enhanced\\b": "#007AFF",
-    "(?i)\\b(?:seadex|alt[ ._-]?release|best[ ._-]?release)\\b": "#000000",
+    "(?i)\\b(?:seadex|alt[ ._-]?release|best[ ._-]?release)\\b": "#5AC8FA",
     "(?i)(?<![a-z])remux(?![a-z])": "#000000",
     "(?i)^(?=.*(?:(?:BluRay|Blu-Ray|HD-?DVD|BDMux|(?<=[-_. (\\[])BD(?=[-_. )\\]])|UHD|4K|bd(?:720|1080|2160)|DVD|DVDRip|NTSC|PAL|xvidvd)))(?!.*(?:(?:WEB[-_. ]DL(?:mux)?|WEBDL|AmazonHD|AmazonSD|iTunesHD|MaxdomeHD|NetflixU?HD|WebHD|HBOMaxHD|DisneyHD|[. ]WEB[. ](?:[xh][ .]?26[45]|AVC|HEVC|DDP?[ .]?5[. ]1)|(?:720|1080|2160)p[-. ]WEB[-. ]|[-. ]WEB[-. ](?:720|1080|2160)p|(?:AMZN|NF|DP)[. -]WEB[. -](?!Rip)|WebRip|Web-Rip|WEBMux|\\[WEB\\]|[\\(\\[]WEB[ .])))(?!.*(?:(?:[_. ]|\\d{4}p-|\\bHybrid-)(?:(?:BD|UHD)[-_. ]?)?Remux\\b|(?:(?:BD|UHD)[-_. ]?)?Remux[_. ]\\d{4}p)).*$": "#000000",
     "(?i)^(?=.*(?<![a-z])(?:web[-_. ]?dl(?:rip|mux)?|web[-_. ]?rip|web[-_. ]?hd|web(?![a-z])|amazonhd|ituneshd|maxdomehd|netflixu?hd|hbomaxhd|disneyhd))(?!.*(?<![a-z])remux(?![a-z])).*$": "#000000",
