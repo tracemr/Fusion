@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Debrid Media Manager
 // @namespace    https://debridmediamanager.com
-// @version      1.8.1
+// @version      1.0.1
 // @description  Add accessible DMM buttons to IMDB, MDBList, TraktTV, JustWatch, TheTVDB, Criticker, Metacritic, and Bittorrent sites with magnet links
 // @author       Ben Adrian Sarmiento <me@bensarmiento.com>
 // @license      MIT
@@ -16,7 +16,7 @@
 
 	const DMM_HOST = "https://debridmediamanager.com";
 	const X_DMM_HOST = "https://x.debridmediamanager.com";
-	const SEARCH_BTN_LABEL = "DMM🔎";
+	const SEARCH_BTN_LABEL = "🔎 DebridMediaManger";
 
 function createButton(text, url) {
     const button = document.createElement("button");
@@ -411,7 +411,7 @@ function createLink(text, url) {
 			const infoHash = getInfoHashFromMagnetLink(magnetURL);
 			if (infoHash) {
 				const buttonURL = `https://debridmediamanager.com/library?addMagnet=${infoHash}`;
-				const button = createButton("DMM🧲", buttonURL);
+				const button = createButton("🧲DebridMediaManger", buttonURL);
 				link.parentNode.insertBefore(button, link.nextSibling);
 			}
 		});
