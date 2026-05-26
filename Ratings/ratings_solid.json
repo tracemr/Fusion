@@ -1,0 +1,50 @@
+[
+  {
+    "name": "(IM) IMDb",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/imdb.png"
+  },
+  {
+    "name": "(TM) TMDb",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/tmdb.png"
+  },
+  {
+    "name": "(RT) Rotten Tomatoes Tomatometer",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/rotten-tomatoes.png"
+  },
+  {
+    "name": "(PC) Rotten Tomatoes Popcornmeter",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/popcornmeter.png"
+  },
+  {
+    "name": "(MC) Metacritic",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/metacritic.png"
+  },
+  {
+    "name": "(TR) Trakt",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/trakt.png"
+  },
+  {
+    "name": "(LB) Letterboxd",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/letterboxd.png"
+  },
+  {
+    "name": "(AN) Anilist",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/anilist.png"
+  },
+  {
+    "name": "(MAL) MyAnimeList",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/myanimelist.png"
+  },
+  {
+    "name": "(RE)RogerEbert",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/rogerebert.png"
+  },
+  {
+    "name": "OVERALL",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/overall.png"
+  },
+  {
+    "name": "LOVE",
+    "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/solid/love.png"
+  }
+]

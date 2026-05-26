@@ -58,7 +58,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10Plus.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10Plus.png",
       "isEnabled": true,
       "name": "HDR10+",
       "pattern": "(?si)\\A(?=[\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10(?:plus\\b|\\+)",
@@ -69,7 +69,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10Plus-2.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10Plus-2.png",
       "isEnabled": true,
       "name": "HDR10+ (No Dolby Vision)",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10(?:plus\\b|\\+)",
@@ -80,7 +80,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10.png",
       "isEnabled": true,
       "name": "HDR10",
       "pattern": "(?si)\\A(?=[\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10\\b(?!(?:plus|\\+))",
@@ -91,7 +91,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR10-2.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-2.png",
       "isEnabled": true,
       "name": "HDR10 (No Dolby Vision)",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10\\b(?!(?:plus|\\+))",
@@ -102,7 +102,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/HDR.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr.png",
       "isEnabled": true,
       "name": "HDR",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?![\\s\\S]*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?![\\s\\S]*\\bhdr\\s*10\\b)(?=[\\s\\S]*\\bhdr\\b)[\\s\\S]*",
@@ -113,7 +113,7 @@
     {
       "groupId": "g02-dynamic-range",
       "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/SDR.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/sdr.png",
       "isEnabled": true,
       "name": "SDR",
       "pattern": "(?si)\\A(?=[\\s\\S]*(?:\\.(?:mkv|mp4|avi|mov|m4v|ts)\\b|\\b(?:x264|x265|xvid|h[ ._-]?264|h[ ._-]?265|hevc|avc|web[-_. ]?dl|webrip|blu[-_. ]?ray|bd[-_. ]?remux|bdremux|remux|bdrip|bdmux|dvd|dvdrip|hdtv|uhd|4k)\\b))(?![\\s\\S]*(?:^|[^A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg)(?=$|[^A-Za-z0-9]))[\\s\\S]*$",
@@ -212,7 +212,7 @@
     {
       "groupId": "g03-encode",
       "id": "21D9C1AC-B8FF-48E5-8297-B1BBB97A34C1",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/H265.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h265.png",
       "isEnabled": true,
       "name": "H265",
       "pattern": "(?i)\\b(?:hevc|x265|h\\.?265)\\b",
@@ -223,7 +223,7 @@
     {
       "groupId": "g03-encode",
       "id": "7A3FE411-51BE-4915-A105-96160BB96764",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/H264.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h264.png",
       "isEnabled": true,
       "name": "H264",
       "pattern": "(?i)\\b(?:avc|x264|h\\.?264)\\b",
@@ -245,7 +245,7 @@
     {
       "groupId": "g04-special-tags",
       "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/IMAX.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax.png",
       "isEnabled": true,
       "name": "IMAX",
       "pattern": "(?i)\\bimax\\b(?![\\s._-]?enhanced)",
@@ -256,7 +256,7 @@
     {
       "groupId": "g04-special-tags",
       "id": "v-imax-e",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/IMAX-enhanced.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax-enhanced.png",
       "isEnabled": true,
       "name": "IMAX Enhanced",
       "pattern": "(?i)\\bimax[\\s._-]?enhanced\\b",
@@ -267,7 +267,7 @@
     {
       "groupId": "g04-special-tags",
       "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
-      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/SeaDex.png",
+      "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/seadex.png",
       "isEnabled": true,
       "name": "SeaDex",
       "pattern": "(?i)\\b(?:seadex|alt[ ._-]?release|best[ ._-]?release)\\b",
