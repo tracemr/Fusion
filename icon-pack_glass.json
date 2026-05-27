@@ -36,7 +36,7 @@
     "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/overall_glass.png"
   },
   {
-    "name": "Anilist (AN)",
+    "name": "(AN) Anilist",
     "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/anilist_glass.png"
   },
   {
@@ -44,7 +44,7 @@
     "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/love_glass.png"
   },
   {
-    "name": "MyAnimeList (ML)",
+    "name": "(ML) MyAnimeList",
     "url": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Ratings/myanimelist_glass.png"
   }
 ]
