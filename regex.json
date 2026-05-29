@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "groupId": "source",
+      "groupId": "g1-source",
       "id": "c0ad5e2e-ed9d-5abd-a13a-64cce37547a2",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-remux-large.png",
       "isEnabled": true,
@@ -12,7 +12,7 @@
       "type": "filter"
     },
     {
-      "groupId": "source",
+      "groupId": "g1-source",
       "id": "acf8f544-3810-5b00-ac72-4835d3438e1a",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-bluray-large.png",
       "isEnabled": true,
@@ -23,7 +23,7 @@
       "type": "filter"
     },
     {
-      "groupId": "source",
+      "groupId": "g1-source",
       "id": "4c04b5c6-2077-5c46-b7cd-6709391fcd37",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-web-large.png",
       "isEnabled": true,
@@ -34,7 +34,7 @@
       "type": "filter"
     },
     {
-      "groupId": "resolution",
+      "groupId": "g2-resolution",
       "id": "29075787-3ab6-539d-aee4-2245d93f115a",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/4k.png",
       "isEnabled": true,
@@ -45,7 +45,7 @@
       "type": "filter"
     },
     {
-      "groupId": "resolution",
+      "groupId": "g2-resolution",
       "id": "929C8D82-079B-40EA-ADDF-B9EA3233C241",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2k.png",
       "isEnabled": true,
@@ -56,7 +56,7 @@
       "type": "filter"
     },
     {
-      "groupId": "resolution",
+      "groupId": "g2-resolution",
       "id": "0b6cb68b-9b86-5b7b-9d90-37222bde6d14",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/1080p-full-hd.png",
       "isEnabled": true,
@@ -67,7 +67,7 @@
       "type": "filter"
     },
     {
-      "groupId": "resolution",
+      "groupId": "g2-resolution",
       "id": "0d33e380-b632-566f-a57f-89ab9137313e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/720p-hd.png",
       "isEnabled": true,
@@ -78,7 +78,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-vision.png",
       "isEnabled": true,
@@ -89,7 +89,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-plus.png",
       "isEnabled": true,
@@ -100,7 +100,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-plus-2.png",
       "isEnabled": true,
@@ -111,7 +111,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10.png",
       "isEnabled": true,
@@ -122,7 +122,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-2.png",
       "isEnabled": true,
@@ -133,7 +133,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr.png",
       "isEnabled": true,
@@ -144,7 +144,7 @@
       "type": "filter"
     },
     {
-      "groupId": "dynamic-range",
+      "groupId": "g3-dynamic-range",
       "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/sdr.png",
       "isEnabled": true,
@@ -155,7 +155,7 @@
       "type": "filter"
     },
     {
-      "groupId": "special-tags",
+      "groupId": "g4-special-tags",
       "id": "FB568896-1A35-4EEF-AB54-FF8D86B243F6",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/bluray.png",
       "isEnabled": true,
@@ -166,7 +166,7 @@
       "type": "filter"
     },
     {
-      "groupId": "special-tags",
+      "groupId": "g4-special-tags",
       "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax.png",
       "isEnabled": true,
@@ -177,7 +177,7 @@
       "type": "filter"
     },
     {
-      "groupId": "special-tags",
+      "groupId": "g4-special-tags",
       "id": "v-imax-e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax-enhanced.png",
       "isEnabled": true,
@@ -188,7 +188,7 @@
       "type": "filter"
     },
     {
-      "groupId": "special-tags",
+      "groupId": "g4-special-tags",
       "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/seadex.png",
       "isEnabled": true,
@@ -199,7 +199,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-atmos.png",
       "isEnabled": true,
@@ -210,7 +210,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-truehd.png",
       "isEnabled": true,
@@ -221,7 +221,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digitalplus.png",
       "isEnabled": true,
@@ -232,7 +232,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digital.png",
       "isEnabled": true,
@@ -243,7 +243,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "4309bea6-d424-51f4-8099-0deabacfc306",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtsx.png",
       "isEnabled": true,
@@ -254,7 +254,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshdma.png",
       "isEnabled": true,
@@ -265,7 +265,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshd.png",
       "isEnabled": true,
@@ -276,7 +276,7 @@
       "type": "filter"
     },
     {
-      "groupId": "audio-tags",
+      "groupId": "g5-audio-tags",
       "id": "da8db73e-5b47-560e-a543-abf02335db5c",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dts.png",
       "isEnabled": true,
@@ -287,7 +287,7 @@
       "type": "filter"
     },
     {
-      "groupId": "encode",
+      "groupId": "g6-encode",
       "id": "21D9C1AC-B8FF-48E5-8297-B1BBB97A34C1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h265.png",
       "isEnabled": true,
@@ -298,7 +298,7 @@
       "type": "filter"
     },
     {
-      "groupId": "encode",
+      "groupId": "g6-encode",
       "id": "7A3FE411-51BE-4915-A105-96160BB96764",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h264.png",
       "isEnabled": true,
@@ -364,7 +364,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-en",
       "isEnabled": true,
       "name": "🇺🇸",
@@ -374,7 +374,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-es",
       "isEnabled": true,
       "name": "🇪🇸",
@@ -384,7 +384,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-fr",
       "isEnabled": true,
       "name": "🇫🇷",
@@ -394,7 +394,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-de",
       "isEnabled": true,
       "name": "🇩🇪",
@@ -404,7 +404,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-it",
       "isEnabled": true,
       "name": "🇮🇹",
@@ -414,7 +414,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-pt",
       "isEnabled": true,
       "name": "🇵🇹",
@@ -424,7 +424,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-ja",
       "isEnabled": true,
       "name": "🇯🇵",
@@ -434,7 +434,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-ko",
       "isEnabled": true,
       "name": "🇰🇷",
@@ -444,7 +444,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-zh",
       "isEnabled": true,
       "name": "🇨🇳",
@@ -454,7 +454,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-hi",
       "isEnabled": true,
       "name": "🇮🇳",
@@ -464,7 +464,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-ar",
       "isEnabled": true,
       "name": "🇸🇦",
@@ -474,7 +474,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-ru",
       "isEnabled": true,
       "name": "🇷🇺",
@@ -484,7 +484,7 @@
       "type": "filter"
     },
     {
-      "groupId": "language",
+      "groupId": "gl-language",
       "id": "l-mu",
       "isEnabled": true,
       "name": "🌐",
@@ -497,31 +497,31 @@
   "groups": [
     {
       "color": "#FFFFFF",
-      "id": "source",
+      "id": "g1-source",
       "isExpanded": true,
       "name": "Source"
     },
     {
       "color": "#FFFFFF",
-      "id": "resolution",
+      "id": "g2-resolution",
       "isExpanded": true,
       "name": "Resolution"
     },
     {
       "color": "#FFFFFF",
-      "id": "dynamic-range",
+      "id": "g3-dynamic-range",
       "isExpanded": true,
       "name": "Dynamic Range"
     },
    {
       "color": "#FFFFFF",
-      "id": "special-tags",
+      "id": "g4-special-tags",
       "isExpanded": true,
       "name": "Special Tags"
     },
     {
       "color": "#FFFFFF",
-      "id": "audio-tags",
+      "id": "g5-audio-tags",
       "isExpanded": true,
       "name": "Audio Tags"
     },
@@ -533,13 +533,13 @@
     },
     {
       "color": "#FFFFFF",
-      "id": "encode",
+      "id": "g6-encode",
       "isExpanded": true,
       "name": "Encode"
     },
     {
       "color": "#FFFFFF",
-      "id": "language",
+      "id": "gl-language",
       "isExpanded": true,
       "name": "Language"
     }
