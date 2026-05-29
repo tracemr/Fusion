@@ -1,41 +1,41 @@
 {
   "filters": [
     {
-      "groupId": "g1-source",
-      "id": "c0ad5e2e-ed9d-5abd-a13a-64cce37547a2",
+      "groupId": "source",
+      "id": "source-remux",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-remux-large.png",
       "isEnabled": true,
       "name": "REMUX",
       "pattern": "(?i)(?<![a-z])remux(?![a-z])",
-      "tagColor": "#FFFFFFFF",
+      "tagColor": "#00FFFFFF",
       "tagStyle": "filled",
       "type": "filter"
     },
     {
-      "groupId": "g1-source",
-      "id": "acf8f544-3810-5b00-ac72-4835d3438e1a",
+      "groupId": "source",
+      "id": "source-bluray",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-bluray-large.png",
       "isEnabled": true,
       "name": "BLU-RAY",
       "pattern": "(?i)^(?=.*(?:(?:BluRay|Blu-Ray|HD-?DVD|BDMux|(?<=[-_. (\\[])BD(?=[-_. )\\]])|UHD|4K|bd(?:720|1080|2160)|DVD|DVDRip|NTSC|PAL|xvidvd)))(?!.*(?:(?:WEB[-_. ]DL(?:mux)?|WEBDL|AmazonHD|AmazonSD|iTunesHD|MaxdomeHD|NetflixU?HD|WebHD|HBOMaxHD|DisneyHD|[. ]WEB[. ](?:[xh][ .]?26[45]|AVC|HEVC|DDP?[ .]?5[. ]1)|(?:720|1080|2160)p[-. ]WEB[-. ]|[-. ]WEB[-. ](?:720|1080|2160)p|(?:AMZN|NF|DP)[. -]WEB[. -](?!Rip)|WebRip|Web-Rip|WEBMux|\\[WEB\\]|[\\(\\[]WEB[ .])))(?!.*(?:(?:[_. ]|\\d{4}p-|\\bHybrid-)(?:(?:BD|UHD)[-_. ]?)?Remux\\b|(?:(?:BD|UHD)[-_. ]?)?Remux[_. ]\\d{4}p)).*$",
-      "tagColor": "#FFFFFFFF",
+      "tagColor": "#00FFFFFF",
       "tagStyle": "filled",
       "type": "filter"
     },
     {
-      "groupId": "g1-source",
-      "id": "4c04b5c6-2077-5c46-b7cd-6709391fcd37",
+      "groupId": "source",
+      "id": "source-web",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/source-web-large.png",
       "isEnabled": true,
       "name": "WEB",
       "pattern": "(?i)^(?=.*(?<![a-z])(?:web[-_. ]?dl(?:rip|mux)?|web[-_. ]?rip|web[-_. ]?hd|web(?![a-z])|amazonhd|ituneshd|maxdomehd|netflixu?hd|hbomaxhd|disneyhd))(?!.*(?<![a-z])remux(?![a-z])).*$",
-      "tagColor": "#FFFFFFFF",
+      "tagColor": "#00FFFFFF",
       "tagStyle": "filled",
       "type": "filter"
     },
     {
-      "groupId": "g2-resolution",
-      "id": "29075787-3ab6-539d-aee4-2245d93f115a",
+      "groupId": "resolution",
+      "id": "resolution-2160p",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/4k.png",
       "isEnabled": true,
       "name": "2160p",
@@ -45,8 +45,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g2-resolution",
-      "id": "929C8D82-079B-40EA-ADDF-B9EA3233C241",
+      "groupId": "resolution",
+      "id": "resolution-1440p",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2k.png",
       "isEnabled": true,
       "name": "1440p",
@@ -56,8 +56,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g2-resolution",
-      "id": "0b6cb68b-9b86-5b7b-9d90-37222bde6d14",
+      "groupId": "resolution",
+      "id": "resolution-1080p",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/1080p-full-hd.png",
       "isEnabled": true,
       "name": "1080p",
@@ -67,8 +67,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g2-resolution",
-      "id": "0d33e380-b632-566f-a57f-89ab9137313e",
+      "groupId": "resolution",
+      "id": "resolution-720p",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/720p-hd.png",
       "isEnabled": true,
       "name": "720p",
@@ -78,8 +78,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-dolbyvision",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-vision.png",
       "isEnabled": true,
       "name": "Dolby Vision",
@@ -89,8 +89,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-hdr10plus",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-plus.png",
       "isEnabled": true,
       "name": "HDR10+",
@@ -100,8 +100,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-hdr10plus-2",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-plus-2.png",
       "isEnabled": true,
       "name": "HDR10+ (No Dolby Vision)",
@@ -111,8 +111,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-hdr10",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10.png",
       "isEnabled": true,
       "name": "HDR10",
@@ -122,8 +122,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-hdr10-2",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr10-2.png",
       "isEnabled": true,
       "name": "HDR10 (No Dolby Vision)",
@@ -133,8 +133,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-hdr",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/hdr.png",
       "isEnabled": true,
       "name": "HDR",
@@ -144,8 +144,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g3-dynamic-range",
-      "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
+      "groupId": "dynamic-range",
+      "id": "dynamic-range-sdr",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/sdr.png",
       "isEnabled": true,
       "name": "SDR",
@@ -155,10 +155,10 @@
       "type": "filter"
     },
     {
-      "groupId": "g4-special-tags",
-      "id": "FB568896-1A35-4EEF-AB54-FF8D86B243F6",
+      "groupId": "special-tags",
+      "id": "special-tags-bluray",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/bluray.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "name": "Blu-Ray",
       "pattern": "(?i)\\b(?:blu[- ]?ray|bd[- ]?rip|br[- ]?rip|bdr)\\b(?!.*remux)",
       "tagColor": "#5AC8FA",
@@ -166,8 +166,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g4-special-tags",
-      "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
+      "groupId": "special-tags",
+      "id": "special-tags-imax",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax.png",
       "isEnabled": true,
       "name": "IMAX",
@@ -177,8 +177,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g4-special-tags",
-      "id": "v-imax-e",
+      "groupId": "special-tags",
+      "id": "special-tags-imax-enhanced",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/imax-enhanced.png",
       "isEnabled": true,
       "name": "IMAX Enhanced",
@@ -188,8 +188,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g4-special-tags",
-      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
+      "groupId": "special-tags",
+      "id": "special-tags-seadex",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/seadex.png",
       "isEnabled": true,
       "name": "SeaDex",
@@ -199,8 +199,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dolbyatmos",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-atmos.png",
       "isEnabled": true,
       "name": "ATMOS",
@@ -210,8 +210,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dolbytruehd",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-truehd.png",
       "isEnabled": true,
       "name": "TRUEHD",
@@ -221,8 +221,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dolbydigitalplus",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digitalplus.png",
       "isEnabled": true,
       "name": "DOLBY DIGITAL+",
@@ -232,8 +232,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dolbydigital",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dolby-digital.png",
       "isEnabled": true,
       "name": "DOLBY DIGITAL",
@@ -243,8 +243,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "4309bea6-d424-51f4-8099-0deabacfc306",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dtsx",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtsx.png",
       "isEnabled": true,
       "name": "DTS-X",
@@ -254,8 +254,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dtshdma",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshdma.png",
       "isEnabled": true,
       "name": "DTS-HD MA",
@@ -265,8 +265,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dtshd",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dtshd.png",
       "isEnabled": true,
       "name": "DTS-HD",
@@ -276,8 +276,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g5-audio-tags",
-      "id": "da8db73e-5b47-560e-a543-abf02335db5c",
+      "groupId": "audio-tags",
+      "id": "audio-tags-dts",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/dts.png",
       "isEnabled": true,
       "name": "DTS",
@@ -287,8 +287,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g6-channels",
-      "id": "343880da-882c-5dd8-8686-aee04111d735",
+      "groupId": "channels",
+      "id": "channels-7dot1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/7dot1.png",
       "isEnabled": true,
       "name": "7.1",
@@ -298,8 +298,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g6-channels",
-      "id": "59853061-bc8f-5545-b392-644c22267ef8",
+      "groupId": "channels",
+      "id": "channels-6dot1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/6dot1.png",
       "isEnabled": true,
       "name": "6.1",
@@ -309,8 +309,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g6-channels",
-      "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
+      "groupId": "channels",
+      "id": "channels-5dot1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/5dot1.png",
       "isEnabled": true,
       "name": "5.1",
@@ -320,8 +320,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g6-channels",
-      "id": "b15c7e11-4a5f-4d6b-8b7a-9a918734fca2",
+      "groupId": "channels",
+      "id": "channels-2dot1",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2dot1.png",
       "isEnabled": true,
       "name": "2.1",
@@ -331,8 +331,8 @@
       "type": "filter"
     },
     {
-      "groupId": "g6-channels",
-      "id": "d87e9f22-5c7e-4e8c-9c9b-1c138956edb4",
+      "groupId": "channels",
+      "id": "channels-2dot0",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/2dot0.png",
       "isEnabled": true,
       "name": "2.0",
@@ -342,10 +342,10 @@
       "type": "filter"
     },
     {
-      "groupId": "g7-encode",
-      "id": "21D9C1AC-B8FF-48E5-8297-B1BBB97A34C1",
+      "groupId": "encode",
+      "id": "encode-h265",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h265.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "name": "H265",
       "pattern": "(?i)\\b(?:hevc|x265|h\\.?265)\\b",
       "tagColor": "#20FFFFFF",
@@ -353,10 +353,10 @@
       "type": "filter"
     },
     {
-      "groupId": "g7-encode",
-      "id": "7A3FE411-51BE-4915-A105-96160BB96764",
+      "groupId": "encode",
+      "id": "encode-h264",
       "imageURL": "https://raw.githubusercontent.com/tracemr/Fusion/refs/heads/main/Regex/h264.png",
-      "isEnabled": true,
+      "isEnabled": false,
       "name": "H264",
       "pattern": "(?i)\\b(?:avc|x264|h\\.?264)\\b",
       "tagColor": "#20FFFFFF",
@@ -364,7 +364,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-en",
       "isEnabled": true,
       "name": "🇺🇸",
@@ -374,7 +374,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-es",
       "isEnabled": true,
       "name": "🇪🇸",
@@ -384,7 +384,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-fr",
       "isEnabled": true,
       "name": "🇫🇷",
@@ -394,7 +394,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-de",
       "isEnabled": true,
       "name": "🇩🇪",
@@ -404,7 +404,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-it",
       "isEnabled": true,
       "name": "🇮🇹",
@@ -414,7 +414,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-pt",
       "isEnabled": true,
       "name": "🇵🇹",
@@ -424,7 +424,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-ja",
       "isEnabled": true,
       "name": "🇯🇵",
@@ -434,7 +434,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-ko",
       "isEnabled": true,
       "name": "🇰🇷",
@@ -444,7 +444,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-zh",
       "isEnabled": true,
       "name": "🇨🇳",
@@ -454,7 +454,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-hi",
       "isEnabled": true,
       "name": "🇮🇳",
@@ -464,7 +464,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-ar",
       "isEnabled": true,
       "name": "🇸🇦",
@@ -474,7 +474,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-ru",
       "isEnabled": true,
       "name": "🇷🇺",
@@ -484,7 +484,7 @@
       "type": "filter"
     },
     {
-      "groupId": "gl-language",
+      "groupId": "language",
       "id": "l-mu",
       "isEnabled": true,
       "name": "🌐",
@@ -497,49 +497,49 @@
   "groups": [
     {
       "color": "#FFFFFF",
-      "id": "g1-source",
+      "id": "source",
       "isExpanded": true,
       "name": "Source"
     },
     {
       "color": "#FFFFFF",
-      "id": "g2-resolution",
+      "id": "resolution",
       "isExpanded": true,
       "name": "Resolution"
     },
     {
       "color": "#FFFFFF",
-      "id": "g3-dynamic-range",
+      "id": "dynamic-range",
       "isExpanded": true,
       "name": "Dynamic Range"
     },
    {
       "color": "#FFFFFF",
-      "id": "g4-special-tags",
+      "id": "special-tags",
       "isExpanded": true,
       "name": "Special Tags"
     },
     {
       "color": "#FFFFFF",
-      "id": "g5-audio-tags",
+      "id": "audio-tags",
       "isExpanded": true,
       "name": "Audio Tags"
     },
     {
       "color": "#FFFFFF",
-      "id": "g6-channels",
+      "id": "channels",
       "isExpanded": true,
       "name": "Channels"
     },
     {
       "color": "#FFFFFF",
-      "id": "g7-encode",
+      "id": "encode",
       "isExpanded": true,
       "name": "Encode"
     },
     {
       "color": "#FFFFFF",
-      "id": "gl-language",
+      "id": "language",
       "isExpanded": true,
       "name": "Language"
     }
