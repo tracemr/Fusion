@@ -40,7 +40,7 @@
       "isEnabled": true,
       "name": "2160p",
       "pattern": "(?i)\\b(?:2160p?|4k|uhd|ultra[ ._-]?hd)\\b(?!(?:.*?\\b(?:1080p?|720p?|fhd|full[ ._-]?hd)\\b))",
-      "tagColor": "#00C7BE",
+      "tagColor": "#BFBBD6EF",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -51,7 +51,7 @@
       "isEnabled": true,
       "name": "1440p",
       "pattern": "(?i)\\b(?:1440[pi]?|2k|2560\\s?x\\s?1440)\\b",
-      "tagColor": "#34C759",
+      "tagColor": "#BFFFC000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -62,7 +62,7 @@
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)\\b(?:1080p?|fhd|full[ ._-]?hd)\\b",
-      "tagColor": "#FF9500",
+      "tagColor": "#BFC0C0C0",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -73,7 +73,7 @@
       "isEnabled": true,
       "name": "720p",
       "pattern": "(?i)\\b720p?\\b",
-      "tagColor": "#FF3B30",
+      "tagColor": "#BFB08D57",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -95,7 +95,7 @@
       "isEnabled": true,
       "name": "HDR10+",
       "pattern": "(?si)\\A(?=[\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10(?:plus\\b|\\+)",
-      "tagColor": "#00C7BE",
+      "tagColor": "#BFBBD6EF",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -106,7 +106,7 @@
       "isEnabled": true,
       "name": "HDR10+ (No Dolby Vision)",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10(?:plus\\b|\\+)",
-      "tagColor": "#34C759",
+      "tagColor": "#BFFFC000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -117,7 +117,7 @@
       "isEnabled": true,
       "name": "HDR10",
       "pattern": "(?si)\\A(?=[\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10\\b(?!(?:plus|\\+))",
-      "tagColor": "#34C759",
+      "tagColor": "#BFFFC000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -128,7 +128,7 @@
       "isEnabled": true,
       "name": "HDR10 (No Dolby Vision)",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dolby\\.?vision|dovi|dv)\\b)[\\s\\S]*\\bhdr10\\b(?!(?:plus|\\+))",
-      "tagColor": "#FF9500",
+      "tagColor": "#BFC0C0C0",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -139,7 +139,7 @@
       "isEnabled": true,
       "name": "HDR",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?![\\s\\S]*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?![\\s\\S]*\\bhdr\\s*10\\b)(?=[\\s\\S]*\\bhdr\\b)[\\s\\S]*",
-      "tagColor": "#FF9500",
+      "tagColor": "#BFC0C0C0",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -150,7 +150,7 @@
       "isEnabled": true,
       "name": "SDR",
       "pattern": "(?si)\\A(?=[\\s\\S]*(?:\\.(?:mkv|mp4|avi|mov|m4v|ts)\\b|\\b(?:x264|x265|xvid|h[ ._-]?264|h[ ._-]?265|hevc|avc|web[-_. ]?dl|webrip|blu[-_. ]?ray|bd[-_. ]?remux|bdremux|remux|bdrip|bdmux|dvd|dvdrip|hdtv|uhd|4k)\\b))(?![\\s\\S]*(?:^|[^A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg)(?=$|[^A-Za-z0-9]))[\\s\\S]*$",
-      "tagColor": "#FF3B30",
+      "tagColor": "#BFB08D57",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -205,7 +205,7 @@
       "isEnabled": true,
       "name": "ATMOS",
       "pattern": "(?i)\\batmos\\b",
-      "tagColor": "#00C7BE",
+      "tagColor": "#BF000000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -216,7 +216,7 @@
       "isEnabled": true,
       "name": "TRUEHD",
       "pattern": "(?i)^(?!.*\\batmos\\b).*\\btruehd\\b",
-      "tagColor": "#34C759",
+      "tagColor": "#BF000000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -227,7 +227,7 @@
       "isEnabled": true,
       "name": "DOLBY DIGITAL +",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:atmos|truehd)\\b)[\\s\\S]*\\b(?:ddp(?:[.\\s]?\\d(?:\\.\\d)?)?|dd\\+(?:[.\\s]?\\d(?:\\.\\d)?)?|e-?ac-?3|dolby[.\\s]?digital[.\\s]?plus)\\b",
-      "tagColor": "#FF9500",
+      "tagColor": "#BF000000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -238,7 +238,7 @@
       "isEnabled": true,
       "name": "DOLBY DIGITAL",
       "pattern": "(?si)\\A(?![\\s\\S]*\\b(?:atmos|truehd|ddp(?:[.\\s]?\\d(?:\\.\\d)?)?|dd\\+(?:[.\\s]?\\d(?:\\.\\d)?)?|e-?ac-?3|dolby[.\\s]?digital[.\\s]?plus)\\b)[\\s\\S]*\\b(?:dd(?:[.\\s]?\\d(?:\\.\\d)?)?|ac-?3|dolby[.\\s]?digital)\\b",
-      "tagColor": "#FF3B30",
+      "tagColor": "#BF000000",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -249,7 +249,7 @@
       "isEnabled": true,
       "name": "DTS-X",
       "pattern": "(?i)(?=.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(?:ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(?:e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(?:\\b|\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(?:l?)PCM\\b)",
-      "tagColor": "#00C7BE",
+      "tagColor": "#F98A2C",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -260,7 +260,7 @@
       "isEnabled": true,
       "name": "DTS-HD MA",
       "pattern": "(?i)(?=.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d))(?!.*\\b(?:True[ .-]?HD|ATMOS)(?:\\b|\\d))(?!.*\\bDD[P+]|(?:e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b)(?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456])))(?!.*\\bFLAC(?:\\b|\\d))(?!.*\\bAAC(?:\\b|\\d))(?!.*\\b(?:l?)PCM(?:\\b|\\d))(?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi)))",
-      "tagColor": "#34C759",
+      "tagColor": "#F98A2C",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -271,7 +271,7 @@
       "isEnabled": true,
       "name": "DTS-HD",
       "pattern": "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
-      "tagColor": "#FF9500",
+      "tagColor": "#F98A2C",
       "tagStyle": "filled",
       "type": "filter"
     },
@@ -282,7 +282,7 @@
       "isEnabled": true,
       "name": "DTS",
       "pattern": "(?i)^(?=.*\\bDTS(?:\\b|\\d))(?!.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d))(?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi)))(?!.*(?:\\bDD[P+]|(?:\\be[-_. ]?ac-?3\\b)))(?!.*(?:True[ .-]?HD|\\bATMOS(?:\\b|\\d)))(?!.*(?:\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b))(?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456])))(?!.*\\bFLAC(?:\\b|\\d))(?!.*\\bAAC(?:\\b|\\d))(?!.*\\b(?:l?)PCM(?:\\b|\\d)).*$",
-      "tagColor": "#FF3B30",
+      "tagColor": "#F98A2C",
       "tagStyle": "filled",
       "type": "filter"
     },
