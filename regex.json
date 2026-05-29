@@ -40,8 +40,9 @@
       "isEnabled": true,
       "name": "2160p",
       "pattern": "(?i)\\b(?:2160p?|4k|uhd|ultra[ ._-]?hd)\\b(?!(?:.*?\\b(?:1080p?|720p?|fhd|full[ ._-]?hd)\\b))",
-      "tagColor": "#BFBBD6EF",
-      "tagStyle": "filled",
+      "tagColor": "#60BBD6EF",
+      "borderColor" : "#60BBD6EF",
+      "tagStyle": "filled and bordered",
       "type": "filter"
     },
     {
@@ -51,8 +52,9 @@
       "isEnabled": true,
       "name": "1440p",
       "pattern": "(?i)\\b(?:1440[pi]?|2k|2560\\s?x\\s?1440)\\b",
-      "tagColor": "#BFFFC000",
-      "tagStyle": "filled",
+      "tagColor": "#60FFC000",
+      "borderColor" : "#60FFC000",
+      "tagStyle": "filled and bordered",
       "type": "filter"
     },
     {
