@@ -365,6 +365,16 @@
     },
     {
       "groupId": "language",
+      "id": "l-mu",
+      "isEnabled": true,
+      "name": "🌐",
+      "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
+      "tagColor": "#20FFFFFF",
+      "tagStyle": "filled",
+      "type": "filter"
+    },
+    {
+      "groupId": "language",
       "id": "l-en",
       "isEnabled": true,
       "name": "🇺🇸",
@@ -479,16 +489,6 @@
       "isEnabled": true,
       "name": "🇷🇺",
       "pattern": "(?i)\\brussian\\b|\\brus\\b|[-]{3,}",
-      "tagColor": "#20FFFFFF",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "groupId": "language",
-      "id": "l-mu",
-      "isEnabled": true,
-      "name": "🌐",
-      "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
       "tagColor": "#20FFFFFF",
       "tagStyle": "filled",
       "type": "filter"
